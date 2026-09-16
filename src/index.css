@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #111111;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F3E5AB;
+  --color-gold-dark: #aa8c2c;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--color-charcoal);
+  color: var(--color-gold-light);
+  overflow-x: hidden;
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-dark));
+  color: var(--color-charcoal);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+}
+.btn-gold:hover {
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+  transform: translateY(-2px);
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}

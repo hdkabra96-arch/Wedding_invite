@@ -1,0 +1,6 @@
+{
+  "name": "Royal Wedding Invitation",
+  "description": "High-end interactive digital wedding invitation with 3D door entry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
